@@ -1,0 +1,1967 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ :root {
+    --main: #3DCFD3;
+}
+
+body {
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 99vw;
+    height: 100vh;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    color: var(--main);
+    outline: none;
+}
+
+.left a {
+    text-decoration: none;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.brand {
+    color: var(--main);
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.left a:hover {
+    background-color: var(--main);
+    color: black;
+    border: none;
+}
+
+.right {
+    margin-right: 20rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-btn {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: var(--main);
+    border: none;
+    transition: all .3s ease-out;
+    font-size: 1rem;
+}
+
+.contact-btn:hover {
+    border: 1px solid var(--main);
+    background-color: black;
+    color: white;
+}
+
+.aboutme {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.main-intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.intro span {
+    color: white;
+    font-size: 2rem;
+}
+
+.intro p {
+    font-size: 1.1rem;
+}
+
+.designer {
+    color: var(--main);
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+.main {
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.projects {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.projects-container {
+    background-color: black;
+    /* width: 80vw;
+    display: flex;
+    justify-content: center; */
+}
+
+.project-box {
+    width: 140px;
+    height: 180px;
+    background-color: black;
+    border: 1px solid #40c7f4;
+    float: left;
+    margin: 2rem 2rem;
+    color: #40c7f4;
+    display: grid;
+    place-items: center;
+    transition: all .2s;
+}
+
+.project-box:hover {
+    width: 160px;
+    height: 200px;
+}
+
+.project-logo {
+    width: 7vw;
+}
+
+.project-btn {
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: var(--main);
+    border: none;
+    transition: all .3s ease-out;
+    font-size: 1rem;
+    color: black;
+    text-decoration-line: none;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.project-btn:hover {
+    border: 1px solid var(--main);
+    background-color: black;
+    color: white;
+}
+
+.calcy-logo {
+    width: 10vh;
+}
+
+.hr {
+    width: 99vw;
+    color: black;
+}
+
+.lang-logo {
+    width: 30vw;
+    margin-left: 10rem;
+}
+
+.know-main-content {
+    display: flex;
+    align-items: center;
+    width: 98vw;
+    height: 50vh;
+}
+
+.know-para {
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+}
+
+.gig {
+    margin-top: 2rem;
+    width: 99vw;
+    display: grid;
+    place-items: center;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 60vw;
+    height: 50vh;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    background-color: var(--main);
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: white;
+    padding: 10px 2rem;
+}
+
+.copyright {
+    margin-top: 100%;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:810px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 90vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: -2rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+        margin: 2rem;
+        padding: 0 .8rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        margin-left: 4rem;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        top: 10%;
+        left: 35%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1rem;
+        margin-top: 7rem;
+        margin-left: -8rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 3rem;
+        margin-left: 15rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        font-size: 2rem;
+        margin-left: 15rem;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 0rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .project-box p {
+        font-size: .8rem;
+    }
+    .projects-container {
+        background-color: black;
+    }
+    .project-box {
+        width: 100px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 1.7rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 8vw;
+    }
+    .project-btn {
+        width: 5rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 4vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        width: 100vw;
+        text-align: center;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        /* display: none; */
+        position: absolute;
+        top: 290%;
+    }
+}
+
+@media (max-width:428px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 120vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: 2rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 20%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -2rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 70vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: 6rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 30%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 10rem;
+    }
+    .intro h1 {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: 2rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+    }
+    .project-box {
+        width: 150px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 4.5rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -2rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width:428px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 120vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: 2.3rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 25%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -12rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width:414px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 120vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: 2rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 20%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -2rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width:412px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 90vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: -2rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+        margin: 2rem;
+        padding: 0 .8rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 21%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 35%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        position: relative;
+        left: -10%;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        /* display: none; */
+        position: absolute;
+        top: 390%;
+    }
+}
+
+@media (max-width:384px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 120vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: 1rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 17%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 33%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -2rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+@media (max-width:360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+    }
+     :root {
+        --main: #3DCFD3;
+    }
+    body {
+        font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container {
+        height: 120vw;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 87%, 0% 100%);
+    }
+    .left {
+        margin-left: .5rem;
+        color: var(--main);
+        outline: none;
+        margin-top: 2rem;
+    }
+    .left a {
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0 0;
+        font-size: .8rem;
+        color: rgb(255, 255, 255);
+        border: none;
+        text-decoration: underline;
+    }
+    .brand {
+        color: var(--main);
+        position: absolute;
+        left: 16%;
+    }
+    .left a:hover {
+        background-color: var(--main);
+        color: black;
+        border: none;
+    }
+    .contact-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        position: absolute;
+        top: 10%;
+        left: 33%;
+    }
+    .contact-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .aboutme {
+        font-size: 1.1rem;
+        margin-right: 1rem;
+    }
+    .main-intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        color: white;
+        font-size: 1.4rem;
+        margin-top: 6rem;
+        margin-left: 11rem;
+    }
+    .intro h1 {
+        font-size: 1.6rem;
+        margin-left: -.8rem;
+    }
+    .intro span {
+        color: white;
+        font-size: 2rem;
+    }
+    .omkar {
+        margin-left: -.8rem;
+    }
+    .aboutme {
+        display: none;
+    }
+    .designer {
+        color: var(--main);
+    }
+    .logo {
+        margin: 0;
+        width: 30vw;
+        width: 50vw;
+        position: absolute;
+        left: 0;
+        margin-top: 3rem;
+    }
+    .main {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .projects {
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    .projects-container {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-box {
+        width: 200px;
+        height: 180px;
+        background-color: black;
+        border: 1px solid #40c7f4;
+        margin: 2rem 2rem;
+        color: #40c7f4;
+        transition: all .2s;
+    }
+    .project-box:hover {
+        width: 160px;
+        height: 200px;
+    }
+    .project-logo {
+        width: 20vw;
+    }
+    .project-btn {
+        width: 7rem;
+        height: 2rem;
+        cursor: pointer;
+        background-color: var(--main);
+        border: none;
+        transition: all .3s ease-out;
+        font-size: 1rem;
+        color: black;
+        text-decoration-line: none;
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+        border: 1px solid black;
+    }
+    .project-btn:hover {
+        border: 1px solid var(--main);
+        background-color: black;
+        color: white;
+    }
+    .calcy-logo {
+        width: 7vh;
+    }
+    .hr {
+        width: 99vw;
+        color: black;
+    }
+    .lang-logo {
+        width: 60vw;
+        margin: 0;
+    }
+    .know-main-content {
+        display: flex;
+        flex-direction: column;
+        width: 98vw;
+        height: 50vh;
+    }
+    .know-main-content img {
+        width: 80vw;
+    }
+    .know-para {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    .gig {
+        margin-top: 25rem;
+        width: 99vw;
+        display: grid;
+        place-items: center;
+    }
+    .gig h1 {
+        margin-left: -12rem;
+    }
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    .gig {
+        overflow: scroll;
+    }
+    table {
+        width: 80vw;
+        height: 30vh;
+        font-size: 1rem;
+        background-color: var(--main);
+    }
+    th {
+        background-color: white;
+    }
+    td {
+        background-color: white;
+        padding: 10px 2rem;
+    }
+    .copyright {
+        display: none;
+    }
+}
